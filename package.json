@@ -1,0 +1,25 @@
+{
+  "name": "my-team",
+  "version": "1.0.0",
+  "description": "Object-Oriented Programming Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjimenez09/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjimenez09/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/bjimenez09/Team-Profile-Generator#readme",
+  "dependencies": {
+    "package.json": "^0.0.0"
+  }
+}
