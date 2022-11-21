@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/bjimenez09/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.5",
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
     "jest": "^29.3.1"
-  }
+  }  
 }
