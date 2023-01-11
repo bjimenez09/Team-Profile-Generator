@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
-const generateTeam = require("./src/template.js")
+const generateTeam = require("./src/template")
 
 teamArray = [];
 
@@ -17,7 +17,7 @@ function runApp () {
   function createTeam () {
     inquirer.prompt([{
       type: "list",
-      message: "What type of employee would you like to add to your team?",
+      message: "Which employee role would you like to add to your team?",
       name: "addEmployeePrompt",
       choices: ["Manager", "Engineer", "Intern", "Additional team members are not needed"]
     }]).then(function (userInput) {
@@ -148,9 +148,9 @@ function addEngineer() {
   // menu option returns to add a new team member 
 
 function htmlBuilder () {
-    console.log("Team created!")
 
-    fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+  fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8");
+    console.log("Your team profile has been successfully created!");
 
 }
 
