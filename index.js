@@ -19,7 +19,7 @@ function runApp () {
       type: "list",
       message: "What type of employee would you like to add to your team?",
       name: "addEmployeePrompt",
-      choices: ["Manager", "Engineer", "Intern", "No more team members are needed."]
+      choices: ["Manager", "Engineer", "Intern", "Additional team members are not needed"]
     }]).then(function (userInput) {
       switch(userInput.addEmployeePrompt) {
         case "Manager":
