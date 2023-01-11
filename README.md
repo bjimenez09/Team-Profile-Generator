@@ -9,8 +9,8 @@ The focus of this unit was Object Oriented Programming. I was tasked to build a 
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshot](#screenshot)
 - [Walkthrough Video](#walkthrough-video)
+- [Screenshot](#screenshot)
 - [Credits](#credits)
 - [License](#license)
 
@@ -73,13 +73,13 @@ Direct your terminal to the /Develop directory and run this command line to init
 node index.js
 ```
 
+## Walkthrough Video
+![Team Generator Walkthrough Video]()
+
 ## Screenshot
 This is a screenshot of the generated HTML webpage.
 
 ![Team Generator HTML Webpage Screenshot](./assets/team-profile.png)
-
-## Walkthrough Video
-![Team Generator Walkthrough Video]()
 
 ## Badges
 
