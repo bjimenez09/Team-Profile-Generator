@@ -145,13 +145,7 @@ function addEngineer() {
 
   }
 
-  // return to menu with option to add another team member create team
-
-  // Would you like to add a team member?
-  // Yes || No
-  // If Yes --> Then select an employee role for your new team member: Manager, Engineer, Intern
-  // If No --> Create Team
-
+  // menu option returns to add a new team member 
 
 function htmlBuilder () {
     console.log("Team created!")
