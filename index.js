@@ -4,11 +4,11 @@ const Intern = require("./lib/Intern.js");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const OUTPUT_DIR = path.resolve(__dirname, "dist");
+const outputPath = path.join(OUTPUT_DIR, "teamProfile.html");
 const generateTeam = require("./src/template")
 
-teamArray = [];
+const teamArray = [];
 
 
 
@@ -37,6 +37,7 @@ function runApp () {
       }
     })
   }
+
 // OOP Functions
 
 function addManager() {
@@ -148,10 +149,10 @@ function addEngineer() {
   // menu option returns to add a new team member 
 
 function htmlBuilder () {
+  console.log("Your team profile has been successfully created!")
 
-  fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8");
-    console.log("Your team profile has been successfully created!");
-
+  fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+    
 }
 
 createTeam();

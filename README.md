@@ -74,7 +74,7 @@ node index.js
 ```
 
 ## Walkthrough Video
-![Team Generator Walkthrough Video]()
+![Team Generator Walkthrough Video](./assets/team_profile_gen.wmv)
 
 ## Screenshot
 This is a screenshot of the generated HTML webpage.
